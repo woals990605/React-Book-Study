@@ -1,8 +1,14 @@
+import { Component } from 'react';
 import './App.css';
-import Say from './Say';
+import IterationSample from './IterationSample';
 
-const App = () => {
-  return <Say />
+class App extends Component {
+  render() {
+    return (
+      <IterationSample />
+    )
+  }
+
 }
 
 export default App;
